@@ -10,6 +10,13 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+    <repositories>
+        <repository>
+            <id>codeguru-profiler</id>
+            <name>codeguru-profiler</name>
+            <url>https://d1osg35nybn3tt.cloudfront.net</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
@@ -27,6 +34,11 @@
           <artifactId>junit</artifactId>
           <version>4.12</version>
           <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>codeguru-profiler-java-agent</artifactId>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 

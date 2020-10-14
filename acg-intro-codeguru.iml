@@ -21,7 +21,7 @@
                   <option value="NAMED_IAM" />
                 </list>
               </option>
-              <option name="stackName" value="test-stack" />
+              <option name="stackName" value="acg-intro-cogeguru" />
             </DeploySamConfig>
           </value>
         </entry>

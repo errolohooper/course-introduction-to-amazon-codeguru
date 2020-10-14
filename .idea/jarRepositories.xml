@@ -16,5 +16,10 @@
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="codeguru-profiler" />
+      <option name="name" value="codeguru-profiler" />
+      <option name="url" value="https://d1osg35nybn3tt.cloudfront.net" />
+    </remote-repository>
   </component>
 </project>
